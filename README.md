@@ -30,7 +30,7 @@ GLIBCXX_3.4.25
 GLIBCXX_3.4.26
 GLIBCXX_3.4.27
 GLIBCXX_3.4.28
-GLIBCXX_DEBUG_MESSAGE_LENGTH where can i get GLIBCXX_3.4.29
+GLIBCXX_DEBUG_MESSAGE_LENGTH
 
 so as we can see there is no GLIBCXX_3.4.29
 
@@ -40,7 +40,9 @@ step 1:
 
 $ find /home/usrname -name "libstdc++.so.6*"
 to use GLIBCXX_3.4.29, you should at least have version libstdc++.so.6.0.29 or higher
+
 output should be:
+
 /home/localstorage/miniconda3/envs/detector/  -name "libstdc++.so.6*"
 /home/localstorage/miniconda3/envs/detector/lib/libstdc++.so.6
 /home/localstorage/miniconda3/envs/detector/lib/libstdc++.so.6.0.32
